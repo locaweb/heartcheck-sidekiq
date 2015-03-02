@@ -12,6 +12,10 @@ module Heartcheck
           append_error(:get) unless get?(connection)
           append_error(:delete) unless del?(connection)
         end
+      rescue Redis::BaseError
+        append_error('connect to redis')
+      rescue => e
+        @errors << "Sidekiq error: #{e.message}"
       end
 
       private
