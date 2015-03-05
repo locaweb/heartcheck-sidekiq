@@ -1,5 +1,7 @@
 # Heartcheck::Sidekiq
 
+[![Build Status](https://travis-ci.org/locaweb/heartcheck-sidekiq.svg)](https://travis-ci.org/locaweb/heartcheck-sidekiq)
+
 A plugin to check sidekiq connection with heartcheck
 
 ## Installation
