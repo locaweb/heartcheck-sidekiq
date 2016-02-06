@@ -1,8 +1,9 @@
 # Heartcheck::Sidekiq
 
 [![Build Status](https://travis-ci.org/locaweb/heartcheck-sidekiq.svg)](https://travis-ci.org/locaweb/heartcheck-sidekiq)
+[![Code Climate](https://codeclimate.com/github/locaweb/heartcheck-sidekiq/badges/gpa.svg)](https://codeclimate.com/github/locaweb/heartcheck-sidekiq)
 
-A plugin to check sidekiq connection with heartcheck
+##A plugin to check sidekiq connection with [heartcheck](https://github.com/locaweb/heartcheck).
 
 ## Installation
 
@@ -22,7 +23,7 @@ Or install it yourself as:
 
 ## Usage
 
-You can add a check to sidekiq when configure the heartcheck
+You can check any sidekiq connection that there's in your app.
 
 ```ruby
 Heartcheck.setup do |config|
@@ -31,6 +32,10 @@ Heartcheck.setup do |config|
   end
 end
 ```
+### Check Heartcheck example [here](https://github.com/locaweb/heartcheck/blob/master/lib/heartcheck/generators/templates/config.rb)
+
+## License
+* [MIT License](https://github.com/locaweb/heartcheck-sidekiq/blob/master/LICENSE.txt)
 
 ## Contributing
 
