@@ -2,6 +2,6 @@
 module Heartcheck
   # gem version
   module Sidekiq
-    VERSION = '0.0.1'
+    VERSION = '0.1.0'
   end
 end
