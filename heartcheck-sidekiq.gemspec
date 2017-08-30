@@ -19,7 +19,7 @@ Gem::Specification.new do |spec|
 
   spec.add_runtime_dependency 'net-telnet', '~> 0.1.1'
 
-  spec.add_dependency 'heartcheck', '~> 1.0.0', '>= 1.0.0'
+  spec.add_dependency 'heartcheck', '~> 1.0', '>= 1.0.0'
   spec.add_dependency 'sidekiq', '>= 2.0.0'
 
   spec.add_development_dependency 'pry-nav', '~> 0.2.0', '>= 0.2.4'

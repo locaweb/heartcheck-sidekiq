@@ -1,0 +1,9 @@
+source 'https://rubygems.org'
+
+gem 'net-telnet', '~> 0.1.1'
+gem 'heartcheck', '>= 1.0.0'
+gem 'redis', '>= 3.2.0', '< 3.4.0'
+gem 'sidekiq', '~> 2.0.0'
+gem 'rack', '~> 1.6'
+gem 'rspec', '~> 3.1.0', '>= 3.1.0'
+gem 'pry-nav', '~> 0.2.0', '>= 0.2.4'
