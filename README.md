@@ -2,6 +2,7 @@
 
 [![Build Status](https://travis-ci.org/locaweb/heartcheck-sidekiq.svg)](https://travis-ci.org/locaweb/heartcheck-sidekiq)
 [![Code Climate](https://codeclimate.com/github/locaweb/heartcheck-sidekiq/badges/gpa.svg)](https://codeclimate.com/github/locaweb/heartcheck-sidekiq)
+[![Ebert](https://ebertapp.io/github/locaweb/heartcheck-sidekiq.svg)](https://ebertapp.io/github/locaweb/heartcheck-sidekiq)
 
 ##A plugin to check sidekiq connection with [heartcheck](https://github.com/locaweb/heartcheck).
 
