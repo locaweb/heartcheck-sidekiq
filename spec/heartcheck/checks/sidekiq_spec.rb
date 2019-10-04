@@ -1,5 +1,5 @@
 RSpec.describe Heartcheck::Checks::Sidekiq do
-  let(:connection) { Redis.new }
+  let(:connection) { Redis.new(host: ENV["REDIS_HOST"] || "localhost") }
   let(:pool) { ConnectionPool.new(size: 1, timeout: 5) { connection } }
   let(:check_errors) { subject.instance_variable_get(:@errors) }
 
