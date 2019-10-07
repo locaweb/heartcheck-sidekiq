@@ -17,3 +17,4 @@
 *.a
 mkmf.log
 .gems/
+Gemfile.lock

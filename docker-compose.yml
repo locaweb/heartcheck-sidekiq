@@ -14,4 +14,4 @@ services:
       BUNDLE_PATH: /app/.gems
 
   redis:
-    image: redis:latest
+    image: redis:5.0.6
