@@ -45,3 +45,14 @@ end
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
 5. Create a new Pull Request
+
+In order to make it easier for your development, we added a docker dev environment
+so that you don't need to install ruby and it's dependencies via rbenv or rvm.
+
+Just do your setup locally by running:
+
+```
+./scripts/heartcheck setup
+```
+
+Run `./scripts/heartcheck -h` to see options available
