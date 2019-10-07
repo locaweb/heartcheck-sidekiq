@@ -25,7 +25,6 @@ module Heartcheck
       # @return [void]
       def custom_error(key_error)
         @errors << key_error
-        ##@errors << "Sidekiq fails to #{key_error}"
       end
     end
   end

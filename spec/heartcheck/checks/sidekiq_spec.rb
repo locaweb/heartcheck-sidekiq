@@ -31,19 +31,6 @@ RSpec.describe Heartcheck::Checks::Sidekiq do
         it { expect(check_errors).to include('Sidekiq fails to get') }
         it { expect(check_errors).to include('Sidekiq fails to delete') }
       end
-
-      context 'with custom error message' do
-        before do
-          subject.on_error do |errors, key_error|
-            errors << "Sidekiq can't #{key_error} a value"
-          end
-          subject.validate
-        end
-
-        it { expect(check_errors).to include('Sidekiq can\'t set a value') }
-        it { expect(check_errors).to include('Sidekiq can\'t get a value') }
-        it { expect(check_errors).to include('Sidekiq can\'t delete a value') }
-      end
     end
 
     context 'when connection fails' do
