@@ -3,7 +3,7 @@ PATH
   specs:
     heartcheck-sidekiq (0.1.2)
       heartcheck (~> 1.0, >= 1.0.0)
-      sidekiq (>= 2.0.0)
+      sidekiq (>= 2.0.0, < 6.0.0)
 
 GEM
   remote: https://rubygems.org/
@@ -59,11 +59,11 @@ GEM
       ruby-progressbar (~> 1.7)
       unicode-display_width (~> 1.0, >= 1.0.1)
     ruby-progressbar (1.9.0)
-    sidekiq (6.0.1)
-      connection_pool (>= 2.2.2)
-      rack (>= 2.0.0)
-      rack-protection (>= 2.0.0)
-      redis (>= 4.1.0)
+    sidekiq (5.2.7)
+      connection_pool (~> 2.2, >= 2.2.2)
+      rack (>= 1.5.0)
+      rack-protection (>= 1.5.0)
+      redis (>= 3.3.5, < 5)
     slop (3.6.0)
     sys-uname (1.1.0)
       ffi (>= 1.0.0)
