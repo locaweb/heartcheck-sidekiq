@@ -1,4 +1,4 @@
-require "heartcheck/monitoring/redis"
+require 'heartcheck/monitoring/redis'
 
 module Heartcheck
   module Checks

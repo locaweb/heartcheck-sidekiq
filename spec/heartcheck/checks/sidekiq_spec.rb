@@ -1,5 +1,5 @@
 RSpec.describe Heartcheck::Checks::Sidekiq do
-  let(:connection) { Redis.new(host: ENV["REDIS_HOST"] || "localhost") }
+  let(:connection) { Redis.new(host: ENV['REDIS_HOST'] || 'localhost') }
   let(:pool) { ConnectionPool.new(size: 1, timeout: 5) { connection } }
   let(:check_errors) { subject.instance_variable_get(:@errors) }
 
@@ -54,6 +54,5 @@ RSpec.describe Heartcheck::Checks::Sidekiq do
         it { expect(check_errors).to include("Sidekiq error: #{msg}") }
       end
     end
-
   end
 end
