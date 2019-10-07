@@ -6,7 +6,6 @@ services:
     volumes:
       - .:/app
     working_dir: /app
-    user: "$UID"
     command: bash
     depends_on:
       - redis
