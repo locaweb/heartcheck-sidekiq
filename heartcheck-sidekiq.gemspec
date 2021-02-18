@@ -27,5 +27,5 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency 'yard', '~> 0.9.11'
   spec.add_development_dependency 'redcarpet', '~> 3.2.0', '>= 3.2.2'
 
-  spec.required_ruby_version = '>= 2.3'
+  spec.required_ruby_version = '>= 2.5'
 end
