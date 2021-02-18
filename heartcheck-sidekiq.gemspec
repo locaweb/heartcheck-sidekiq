@@ -17,7 +17,7 @@ Gem::Specification.new do |spec|
   spec.test_files = spec.files.grep(/^spec\//)
   spec.require_paths = ['lib']
 
-  spec.add_dependency 'heartcheck', '~> 2.0', '>= 2.0.0'
+  spec.add_dependency 'heartcheck', '~> 2.0'
   spec.add_dependency 'sidekiq', '>= 2.0.0', '< 6.1.3'
 
   spec.add_development_dependency 'pry-nav', '~> 0.2.0', '>= 0.2.4'
@@ -26,4 +26,6 @@ Gem::Specification.new do |spec|
   # for documentation
   spec.add_development_dependency 'yard', '~> 0.9.11'
   spec.add_development_dependency 'redcarpet', '~> 3.2.0', '>= 3.2.2'
+
+  spec.required_ruby_version = '>= 2.3'
 end
