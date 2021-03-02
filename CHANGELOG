@@ -1,0 +1,24 @@
+# Heartcheck Sidekiq - Changelog
+
+== Version 0.2.0 :: 2021-03-02
+* Dropped support for ruby < 2.5 (EOL);
+* Removed limit for maximum sidekiq version due no compatibility break since
+2.0.
+
+== Version 0.1.3 :: 2021-02-17
+* Bump heartcheck's version to 2.0.0;
+* Increase ruby support for 2.6;
+* Minor improvements, abstracted to a separate module the redis validations.
+
+== Version 0.1.2 :: 2019-02-19
+* Update Rubucop and Yard version.
+
+== Version 0.1.1 :: 2017-10-20
+* Minor fix in namespace of Redis to prevent ConstantError;
+* Added ebert.yml to project.
+
+== Version 0.1.0 :: 2017-08-30
+* Added support for heartcheck 1.2.2.
+
+== Version 0.0.1 :: 2015-05-12
+* Initial release.
