@@ -3,7 +3,8 @@
 == Version 0.2.0 :: 2021-03-02
 * Dropped support for ruby < 2.5 (EOL);
 * Removed limit for maximum sidekiq version due no compatibility break since
-2.0.
+2.0;
+* Update vulnerable dependecy (CVE-2020-26298).
 
 == Version 0.1.3 :: 2021-02-17
 * Bump heartcheck's version to 2.0.0;
