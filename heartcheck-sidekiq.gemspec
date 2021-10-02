@@ -23,6 +23,7 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency 'pry-nav', '~> 0.2.0', '>= 0.2.4'
   spec.add_development_dependency 'rspec', '~> 3.1.0', '>= 3.1.0'
   spec.add_development_dependency 'rubocop', '~> 0.49.0'
+  spec.add_development_dependency 'rubycritic'
   # for documentation
   spec.add_development_dependency 'yard', '~> 0.9.11'
   spec.add_development_dependency 'redcarpet', '~> 3.5.0', '>= 3.5.1'
