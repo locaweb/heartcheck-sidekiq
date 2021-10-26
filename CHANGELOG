@@ -1,5 +1,8 @@
 # Heartcheck Sidekiq - Changelog
 
+== Version 0.3.0 :: 2021-06-07
+* Dropped support for ruby < 2.6 (EOL).
+
 == Version 0.2.0 :: 2021-03-02
 * Dropped support for ruby < 2.5 (EOL);
 * Removed limit for maximum sidekiq version due no compatibility break since
